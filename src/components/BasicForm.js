@@ -80,7 +80,7 @@ const BasicForm = (props) => {
             value={enteredLastName}
             type='text' 
             id='name' />
-          {emailInputHasError && (<p className='error-text'>Please enter a valid email.</p>)}
+          {lastNameInputHasError && (<p className='error-text'>Please enter a valid last name.</p>)}
         </div>
       </div>
       <div className={emailInputClasses}>
